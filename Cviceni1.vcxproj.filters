@@ -83,15 +83,6 @@
     <ClInclude Include="CameraObservable.h">
       <Filter>Hlavičkové soubory</Filter>
     </ClInclude>
-    <ClInclude Include="plain.h">
-      <Filter>Soubory zdrojů\Models</Filter>
-    </ClInclude>
-    <ClInclude Include="sphere.h">
-      <Filter>Soubory zdrojů\Models</Filter>
-    </ClInclude>
-    <ClInclude Include="suzi_flat.h">
-      <Filter>Soubory zdrojů\Models</Filter>
-    </ClInclude>
     <ClInclude Include="suzi_smooth.h">
       <Filter>Soubory zdrojů\Models</Filter>
     </ClInclude>
@@ -127,6 +118,15 @@
     </ClInclude>
     <ClInclude Include="Movement.h">
       <Filter>Hlavičkové soubory</Filter>
+    </ClInclude>
+    <ClInclude Include="suzi_flat.h">
+      <Filter>Soubory zdrojů\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Soubory zdrojů\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="plain.h">
+      <Filter>Soubory zdrojů\Models</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
