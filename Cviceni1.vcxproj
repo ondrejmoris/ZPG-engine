@@ -154,54 +154,50 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Camera.cpp" />
-    <ClCompile Include="Light.cpp" />
-    <ClCompile Include="Mesh.cpp" />
-    <ClCompile Include="Model.cpp" />
-    <ClCompile Include="ModelManager.cpp" />
-    <ClCompile Include="Movement.cpp" />
-    <ClCompile Include="Object.cpp" />
-    <ClCompile Include="Scene.cpp" />
-    <ClCompile Include="Shader.cpp" />
-    <ClCompile Include="ShaderManager.cpp" />
-    <ClCompile Include="SkyBox.cpp" />
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Src\Application.cpp" />
+    <ClCompile Include="Src\Camera.cpp" />
+    <ClCompile Include="Src\Light.cpp" />
+    <ClCompile Include="Src\Mesh.cpp" />
+    <ClCompile Include="Src\Model.cpp" />
+    <ClCompile Include="Src\ModelManager.cpp" />
+    <ClCompile Include="Src\Movement.cpp" />
+    <ClCompile Include="Src\Object.cpp" />
+    <ClCompile Include="Src\Scene.cpp" />
+    <ClCompile Include="Src\Shader.cpp" />
+    <ClCompile Include="Src\ShaderManager.cpp" />
+    <ClCompile Include="Src\SkyBox.cpp" />
+    <ClCompile Include="Src\Source.cpp" />
+    <ClCompile Include="Src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="Camera.h" />
-    <ClInclude Include="CameraObservable.h" />
-    <ClInclude Include="CameraObserver.h" />
-    <ClInclude Include="Light.h" />
-    <ClInclude Include="LightObservable.h" />
-    <ClInclude Include="LightObserver.h" />
-    <ClInclude Include="Mesh.h" />
-    <ClInclude Include="Model.h" />
-    <ClInclude Include="ModelManager.h" />
-    <ClInclude Include="Movement.h" />
-    <ClInclude Include="Object.h" />
-    <ClInclude Include="plain.h" />
-    <ClInclude Include="Scene.h" />
-    <ClInclude Include="Shader.h" />
-    <ClInclude Include="ShaderManager.h" />
-    <ClInclude Include="SkyBox.h" />
-    <ClInclude Include="sphere.h" />
-    <ClInclude Include="suzi_flat.h" />
-    <ClInclude Include="suzi_smooth.h" />
-    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Include\Application.h" />
+    <ClInclude Include="Include\Camera.h" />
+    <ClInclude Include="Include\CameraObservable.h" />
+    <ClInclude Include="Include\CameraObserver.h" />
+    <ClInclude Include="Include\Light.h" />
+    <ClInclude Include="Include\LightObservable.h" />
+    <ClInclude Include="Include\LightObserver.h" />
+    <ClInclude Include="Include\Mesh.h" />
+    <ClInclude Include="Include\Model.h" />
+    <ClInclude Include="Include\ModelManager.h" />
+    <ClInclude Include="Include\Movement.h" />
+    <ClInclude Include="Include\Object.h" />
+    <ClInclude Include="Include\Scene.h" />
+    <ClInclude Include="Include\Shader.h" />
+    <ClInclude Include="Include\ShaderManager.h" />
+    <ClInclude Include="Include\SkyBox.h" />
+    <ClInclude Include="Include\Texture.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Blinn.frag" />
-    <None Include="Lambert.frag" />
-    <None Include="Constant.frag" />
     <None Include="packages.config" />
-    <None Include="Phong.frag" />
-    <None Include="Shader.vert" />
-    <None Include="SkyBox.frag" />
-    <None Include="SkyBox.vert" />
-    <None Include="Texture.frag" />
+    <None Include="Resources\Blinn.frag" />
+    <None Include="Resources\Constant.frag" />
+    <None Include="Resources\Lambert.frag" />
+    <None Include="Resources\Phong.frag" />
+    <None Include="Resources\Shader.vert" />
+    <None Include="Resources\SkyBox.frag" />
+    <None Include="Resources\SkyBox.vert" />
+    <None Include="Resources\Texture.frag" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
